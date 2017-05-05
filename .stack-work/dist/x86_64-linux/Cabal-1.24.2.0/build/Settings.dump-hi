@@ -1,0 +1,81 @@
+
+==================== FINAL INTERFACE ====================
+2017-05-05 07:54:30.581902 UTC
+
+interface straylight-0.1.0-LfGVzgyVygyEq8qzsMY8zf:Settings 8002
+  interface hash: fe5cbaaa87bae1534e5f7325ea5aff35
+  ABI hash: db91710b5bda3a9ce649d2cd9ea54ab8
+  export-list hash: 7a4aedee97cdf12e27f4148537c2e0f0
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: a1761f5a74228b53e6baccdf708ad798
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Settings.currentSettingsThatMustBePutInYamlFile
+  Settings.AppSettings{Settings.AppSettings appPort appRoot appStaticDir}
+module dependencies:
+package dependencies: array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text 9ba4693a108b74a0b1eb8f7d38f1abee
+import  -/  text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Internal a2f6f66c5bb1247458d9fa25257ab188
+addDependentFile "/home/chase/.stack/programs/x86_64-linux/ghc-8.0.2/lib/ghc-8.0.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+ad31a2d2783f8c8e0ded2b28470110c8
+  $tc'AppSettings :: GHC.Types.TyCon
+c6d7cff80e27e85035321d34c7daeae2
+  $tcAppSettings :: GHC.Types.TyCon
+598634c8e24d8aff9dfaa03db83a503a
+  $trModule :: GHC.Types.Module
+5148e182a776d9a7c540adf93bdc29f1
+  data AppSettings
+    = AppSettings {appRoot :: GHC.Base.Maybe Data.Text.Internal.Text,
+                   appPort :: GHC.Types.Int,
+                   appStaticDir :: GHC.Base.String}
+02d3663e94273216a60a4b11f1263880
+  appPort :: Settings.AppSettings -> GHC.Types.Int
+  RecSel Left Settings.AppSettings
+2623487fff5687c6f4ba4bcd6ce45bf2
+  appRoot ::
+    Settings.AppSettings -> GHC.Base.Maybe Data.Text.Internal.Text
+  RecSel Left Settings.AppSettings
+6699b296f3b84354410ad7c18b6e274d
+  appStaticDir :: Settings.AppSettings -> GHC.Base.String
+  RecSel Left Settings.AppSettings
+bb333798855dac24c4aadf6a7951085c
+  currentSettingsThatMustBePutInYamlFile :: Settings.AppSettings
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,7 @@
+<header>
+  <div>
+    <img>
+  <nav>
+    <ul>
+      <li><a href="@{HomeR}">Home</a>
+      <li><a href="@{LoginR}">Login</a>
